@@ -62,7 +62,20 @@ SELECT DISTINCT `type`,`price` FROM product;
 - DISTINCT关键字只能用在第一个列名之前, 也就是select之后, 第一个列名之前
 - null也会被视为一类数据, 如果DISTINCT的列有一个或者多个为null的, 去重后也会被合并成一条null数据
 
+#### 使用where子句来选择记录
 
+用于根据条件来进行选择记录
 
+> select <列名1>, <列名2>, ... from <表名> where <条件表达式>;
 
+示例
+```SQL
+SELECT DISTINCT `type`,`price` FROM product WHERE `type` = "衣服";
+```
 
+- where子句必须跟在from子句后面, SQL中的子句的顺序是固定的
+
+#### 注释的书写方法
+
+单行注释: 使用连续两个中划线(--), 注释内容在两个中划线之后
+多行注释: 注释内容在(/*)和(*/)之间
