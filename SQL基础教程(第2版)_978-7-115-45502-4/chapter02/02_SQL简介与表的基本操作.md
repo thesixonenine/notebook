@@ -94,8 +94,6 @@ primary key (id)  约束 : 即主键约束.
 
 > drop table <表名>;
 
-注意: 删除了表后无法恢复!!!
-
 表的更新语句如下: 
 
 - 添加列: 
@@ -108,26 +106,12 @@ primary key (id)  约束 : 即主键约束.
 
 某些数据库还支持在指定列名后添加列, 例如MySQL, 使用的关键字时: after
 
+注意: 删除或者更新表后无法恢复!!!
 
+## 表名称的修改
 
+Oracle/PostgreSQL:
+> alter table poduct rename to product;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+MySQL:
+> rename table poduct to product;
