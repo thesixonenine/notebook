@@ -84,3 +84,15 @@ create table product (
 #### 约束的设置
 
 not null 约束 : 不能输入空白
+
+primary key (id)  约束 : 即主键约束. 
+
+
+## 表的删除与更新
+
+表的删除语句如下:
+
+> drop table <表名>;
+
+
+
