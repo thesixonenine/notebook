@@ -42,3 +42,24 @@ SELECT "测试", `id`, `name`, price FROM product;
 ```SQL
 SELECT "测试" AS "常数", `id`, `name` AS "商品名称", price AS "价格" FROM product;
 ```
+
+#### 查询结果去重
+
+使用distinct关键字对字段进行去重
+
+```SQL
+SELECT DISTINCT `type` FROM product;
+```
+
+也可以多个字段组合去重
+
+```SQL
+SELECT DISTINCT `type`,`price` FROM product;
+```
+
+注意: 在使用DISTINCT时, null也会被视为一类数据, 如果DISTINCT的列有一个或者多个为null的, 去重后也会被合并成一条null数据
+
+
+
+
+
