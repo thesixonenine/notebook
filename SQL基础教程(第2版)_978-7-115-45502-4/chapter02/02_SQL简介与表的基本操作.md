@@ -40,7 +40,7 @@
 
 然后才能创建表
 
-``` SQL
+```SQL
 create table <表名> (
     <列名1> <数据类型> <该列所需约束>,
     <列名1> <数据类型> <该列所需约束>,
@@ -49,5 +49,18 @@ create table <表名> (
     .
     .
     <该表的约束1>, <该表的约束2>, ...
+);
+```
+
+示例:
+
+```SQL
+create table product (
+    id          char(4)      not null,
+    name        varchar(100) not null,
+    type        varchar(32)  not null,
+    price       integer(10),
+    regist_date datetime,
+    primary key (id)
 );
 ```
