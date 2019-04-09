@@ -78,3 +78,9 @@ create table product (
 - integer/int 存储整数, 不能存小数
 - char 存储定长字符串, 不同的RDBMS对于char(10)中的10的单位有可能不同, 有的使用字符个数, 有的使用字节长度. 长度不足会以半角空格进行补足.
 - varchar 存储变长字符串, 长度不足的时候并不会进行补足
+- date/time/datetime 存储时间
+- timestamp 存储时间戳
+
+#### 约束的设置
+
+not null 约束 : 不能输入空白
