@@ -6,8 +6,8 @@
 
 该select语句其实包含了select和from两个子句(clause)
 
-1. select子句 : 包含了希望从表中查询出来的列的名称
-2. from子句 : 指定了选取出数据的表的名称
+- select子句 : 包含了希望从表中查询出来的列的名称
+- from子句 : 指定了选取出数据的表的名称
 
 示例:
 
@@ -23,3 +23,10 @@ SELECT `id`, `name`, price FROM product;
 ```SQL
 SELECT * FROM product;
 ```
+
+#### 为列设定别名
+
+> select <列名1> AS <别名1>, <列名2> AS <别名2>, ... from <表名>;
+
+- 别名设定使用关键字as
+- 别名可以是中文, 但需要使用双引号括起来
