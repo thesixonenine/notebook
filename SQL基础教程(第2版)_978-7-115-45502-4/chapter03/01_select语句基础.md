@@ -57,7 +57,10 @@ SELECT DISTINCT `type` FROM product;
 SELECT DISTINCT `type`,`price` FROM product;
 ```
 
-注意: 在使用DISTINCT时, null也会被视为一类数据, 如果DISTINCT的列有一个或者多个为null的, 去重后也会被合并成一条null数据
+在使用DISTINCT时的注意事项
+
+- DISTINCT关键字只能用在第一个列名之前, 也就是select之后, 第一个列名之前
+- null也会被视为一类数据, 如果DISTINCT的列有一个或者多个为null的, 去重后也会被合并成一条null数据
 
 
 
