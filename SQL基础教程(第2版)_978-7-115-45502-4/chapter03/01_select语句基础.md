@@ -30,3 +30,15 @@ SELECT * FROM product;
 
 - 别名设定使用关键字as
 - 别名可以是中文, 但需要使用双引号括起来
+
+#### 常数的查询
+
+```SQL
+SELECT "测试", `id`, `name`, price FROM product;
+```
+
+或者使用别名
+
+```SQL
+SELECT "测试" AS "常数", `id`, `name` AS "商品名称", price AS "价格" FROM product;
+```
