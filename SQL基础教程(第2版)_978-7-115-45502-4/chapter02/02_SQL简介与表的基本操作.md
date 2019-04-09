@@ -94,5 +94,40 @@ primary key (id)  约束 : 即主键约束.
 
 > drop table <表名>;
 
+注意: 删除了表后无法恢复!!!
+
+表的更新语句如下: 
+
+- 添加列: 
+
+    > alter table <表名> add column <列的定义>;
+
+- 删除列:
+
+    > alter table <表名> drop column <列名>;
+
+某些数据库还支持在指定列名后添加列, 例如MySQL, 使用的关键字时: after
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
