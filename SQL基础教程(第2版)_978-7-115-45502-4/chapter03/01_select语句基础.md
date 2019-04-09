@@ -9,3 +9,10 @@
 1. select子句 : 包含了希望从表中查询出来的列的名称
 2. from子句 : 指定了选取出数据的表的名称
 
+示例:
+
+```SQL
+SELECT `id`, `name`, price FROM product;
+```
+
+由于MySQL中有些字段可能会被认为是保留关键字, 所以建议在select子句中的字段都加上反引号(`)
