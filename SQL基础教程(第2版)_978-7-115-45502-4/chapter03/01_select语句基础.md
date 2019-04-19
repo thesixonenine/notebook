@@ -2,7 +2,9 @@
 
 #### 列的查询
 
-> select <列名1>, <列名2>, ... from <表名>;
+```TEXT
+select <列名1>, <列名2>, ... from <表名>;
+```
 
 该select语句其实包含了select和from两个子句(clause)
 
@@ -26,7 +28,9 @@ SELECT * FROM product;
 
 #### 为列设定别名
 
-> select <列名1> AS <别名1>, <列名2> AS <别名2>, ... from <表名>;
+```TEXT
+select <列名1> AS <别名1>, <列名2> AS <别名2>, ... from <表名>;
+```
 
 - 别名设定使用关键字as
 - 别名可以是中文, 但需要使用双引号括起来
@@ -66,7 +70,9 @@ SELECT DISTINCT `type`,`price` FROM product;
 
 用于根据条件来进行选择记录
 
-> select <列名1>, <列名2>, ... from <表名> where <条件表达式>;
+```TEXT
+select <列名1>, <列名2>, ... from <表名> where <条件表达式>;
+```
 
 示例
 ```SQL

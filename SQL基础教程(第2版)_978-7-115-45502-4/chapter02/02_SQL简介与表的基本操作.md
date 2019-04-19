@@ -36,7 +36,7 @@
 
 创建表之前, 一定要先创建数据库
 
-```SQL
+```TEXT
 create database <数据库名称>;
 ```
 
@@ -94,7 +94,9 @@ primary key (id)  约束 : 即主键约束.
 
 表的删除语句如下:
 
-> drop table <表名>;
+```TEXT
+drop table <表名>;
+```
 
 表的更新语句如下: 
 
@@ -113,7 +115,11 @@ primary key (id)  约束 : 即主键约束.
 ## 表名称的修改
 
 Oracle/PostgreSQL:
-> alter table poduct rename to product;
+```SQL
+alter table poduct rename to product;
+```
 
 MySQL:
-> rename table poduct to product;
+```SQL
+rename table poduct to product;
+```
