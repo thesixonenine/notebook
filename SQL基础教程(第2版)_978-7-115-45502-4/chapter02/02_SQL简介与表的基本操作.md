@@ -36,7 +36,9 @@
 
 创建表之前, 一定要先创建数据库
 
-> create database <数据库名称>;
+```SQL
+create database <数据库名称>;
+```
 
 然后才能创建表
 
