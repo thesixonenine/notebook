@@ -4,7 +4,7 @@
 
 #### Java的内存结构：
 
-[](https://raw.githubusercontent.com/thesixonenine/notebook/master/JVM/JMM/JMM01.jpg)
+![](https://raw.githubusercontent.com/thesixonenine/notebook/master/JVM/JMM/JMM01.jpg)
 
 JVM内存结构主要有三大块：
 - 堆内存
@@ -17,7 +17,7 @@ JVM内存结构主要有三大块：
 
   通过参数来控制各区域的内存大小
 
-[](https://raw.githubusercontent.com/thesixonenine/notebook/master/JVM/JMM/JMM02.jpg)
+![](https://raw.githubusercontent.com/thesixonenine/notebook/master/JVM/JMM/JMM02.jpg)
 
 - -Xms设置堆的最小空间大小
 - -Xmx设置堆的最大空间大小
@@ -33,7 +33,7 @@ JVM内存结构主要有三大块：
 
 JVM与系统调用关系
 
-[](https://raw.githubusercontent.com/thesixonenine/notebook/master/JVM/JMM/JMM03.jpg)
+![](https://raw.githubusercontent.com/thesixonenine/notebook/master/JVM/JMM/JMM03.jpg)
 
 - 方法区和对是所有线程共享的内存区域
 - Java栈、本地方法栈和程序员计数器是运行是线程私有的内存区域
